@@ -1,0 +1,15 @@
+/* Custom CSS untuk mempercantik tampilan */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f8fafc;
+}
+
+/* Sembunyikan scrollbar pada kategori filter mobile */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
